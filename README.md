@@ -6,7 +6,7 @@ A comprehensive toolkit leveraging the [espn-api](https://github.com/cwendt94/es
 
 To use ESPN Fantasy Tools, you need to have the following packages installed:
 
-```bash
+
 pip install matplotlib
 pip install espn_api
 pip install ipywidgets
@@ -15,7 +15,7 @@ pip install IPython
 
 ## Setting Up Your League
 
-```python
+
 from espn_api.basketball import League
 league = League(league_id=509828671, year=2024, espn_s2='ESPN_S2', swid='{SWID}')
 
